@@ -1,7 +1,6 @@
 ## ----setup, include=FALSE-----------------------------------------------------------------------------
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
-
 ## -----------------------------------------------------------------------------------------------------
 
 ## load in libraries
@@ -10,9 +9,6 @@ library(tidyverse)
 library(ggplot2)
 library(coda)
 library(ggpubr)
-library(vroom)
-
-
 
 ## -----------------------------------------------------------------------------------------------------
 
@@ -584,3 +580,5 @@ make_mle_plots(men_hard_data3_second, men_clay_data3_second, men_grass_data3_sec
 
 ## Z124 Estimation
 make_mle_plots(men_hard_data4_second, men_clay_data4_second, men_grass_data4_second)
+
+## Not sure if there is a big difference between Z123 and Z1234 for second serves ##
